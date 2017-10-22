@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AppUpdate</string>
+    <string name="app_label">现金贷</string>
+    <string name="main_download">下载更新</string>
+</resources>
