@@ -7,7 +7,7 @@
 
 
 
-[](http://7xook5.com1.z0.glb.clouddn.com/update.gif)
+![](http://7xook5.com1.z0.glb.clouddn.com/update.gif)
 
 ## 功能
 
