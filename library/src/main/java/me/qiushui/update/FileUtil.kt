@@ -24,7 +24,9 @@ internal object FileUtil {
         val appName: String = try {
             sApplication.packageManager.getPackageInfo(sApplication.packageName, 0).applicationInfo
                     .loadLabel(sApplication.packageManager).toString()
-        } catch (ignore: Exception) { "" }
+        } catch (ignore: Exception) {
+            ""
+        }
         return File(getApkFileDir(), appName + "_v" + version + ".apk")
     }
 

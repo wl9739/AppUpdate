@@ -1,5 +1,8 @@
+@file:Suppress("DEPRECATION")
+
 package me.qiushui.update
 
+import android.annotation.SuppressLint
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient
 import okhttp3.ResponseBody
@@ -20,6 +23,7 @@ import javax.net.ssl.X509TrustManager
  *
  * Created by Qiushui on 2017/10/21.
  */
+@SuppressLint("TrustAllX509TrustManager")
 internal object DownloadApi {
 
     private const val MY_GITHUB_URL = "https://github.com/wl9739/"

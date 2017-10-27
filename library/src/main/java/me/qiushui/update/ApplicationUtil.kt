@@ -1,5 +1,6 @@
 package me.qiushui.update
 
+import android.annotation.SuppressLint
 import android.app.Application
 import android.util.Log
 
@@ -8,6 +9,7 @@ import android.util.Log
  *
  * Created by Qiushui on 2017/10/21.
  */
+@SuppressLint("PrivateApi", "StaticFieldLeak")
 internal object ApplicationUtil {
 
     val sApplication: Application

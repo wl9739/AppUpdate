@@ -5,6 +5,10 @@
 
 > 只是常规的下载安装，并没有静默安装等黑科技
 
+
+
+[](http://7xook5.com1.z0.glb.clouddn.com/update.gif)
+
 ## 功能
 
 - [x] 适配 Android 7.+ 系统
@@ -16,7 +20,7 @@
 ## 使用说明
 
 > 由于没有找到一个比较好的上传 Kotlin 库到 Jcenter 的方案，暂时可以将 library 工程下的源码拷贝进自己的项目中使用 (拷贝的时候注意 res/xml 文件和 AndroidManifest.xml 文件中的内容)。
-> 
+>
 > 如果有比较好的上传 Kotlin 库的方案，希望能提 issue 给我 ：）
 
 1. 下载 APP：
@@ -59,9 +63,9 @@ License
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
     You may obtain a copy of the License at
-
+    
        http://www.apache.org/licenses/LICENSE-2.0
-
+    
     Unless required by applicable law or agreed to in writing, software
     distributed under the License is distributed on an "AS IS" BASIS,
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.

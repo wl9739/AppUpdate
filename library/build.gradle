@@ -20,7 +20,7 @@ android {
 }
 
 dependencies {
-    provided 'com.android.support:support-core-utils:26.0.0-alpha1'
+    provided 'com.android.support:support-core-utils:26.1.0'
     provided "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
     provided 'io.reactivex.rxjava2:rxjava:2.1.5'
     provided 'io.reactivex.rxjava2:rxandroid:2.0.1'
@@ -29,4 +29,5 @@ dependencies {
 }
 repositories {
     mavenCentral()
+    google()
 }
